@@ -1,0 +1,55 @@
+# Node.js / TypeScript
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+.eslintcache
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+.hypothesis/
+
+# Package Managers
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+*.lock-wscript
+*.tgz
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Frontend (React / Tailwind)
+.next/
+out/
+.cache/
+public/build/
+streamlit/
+.streamlit/
+
+# Test / Coverage
+coverage/
+*.lcov
+*.spec.*
+*.test.*
+
+# AI Layer / LangChain
+.llm_cache/
+langchain.db
+
+# Editor / OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Misc
+*.code-workspace
