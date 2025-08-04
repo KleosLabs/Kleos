@@ -1,0 +1,16 @@
+{
+  "name": "kleos",
+  "version": "0.1.0",
+  "description": "Modular interpretive agents for Solana behavioral decoding.",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.8.0",
+    "tsx": "^3.12.0",
+    "typescript": "^5.0.0"
+  }
+}
