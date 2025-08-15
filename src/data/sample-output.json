@@ -1,0 +1,41 @@
+{
+  "at": "2025-08-16T00:00:00.000Z",
+  "results": [
+    {
+      "module": "pulseFeed",
+      "output": {
+        "type": "program_activity",
+        "confidence": 0.9,
+        "tags": ["Raydium", "Jupiter"],
+        "summary": "High frequency of Raydium swaps, some Jupiter swaps observed"
+      }
+    },
+    {
+      "module": "memoryMap",
+      "output": {
+        "type": "unfinished_journey",
+        "confidence": 0.7,
+        "tags": ["Raydium"],
+        "summary": "Stake action found without matching unstake for certain wallets"
+      }
+    },
+    {
+      "module": "echoNet",
+      "output": {
+        "type": "pattern_cluster",
+        "confidence": 0.6,
+        "tags": ["Raydium:swap"],
+        "summary": "Multiple wallets repeating similar swap activity on Raydium"
+      }
+    },
+    {
+      "module": "scrollEngine",
+      "output": {
+        "type": "activity_scroll",
+        "confidence": 0.8,
+        "tags": ["Raydium→Jupiter"],
+        "summary": "Sequential swap flow detected from Raydium to Jupiter"
+      }
+    }
+  ]
+}
